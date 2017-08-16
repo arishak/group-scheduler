@@ -14,7 +14,7 @@ Open the application by running 'python scheduler.py' from the command line. (no
 ## Adding Schedules
 To add/edit someone's schedule manually, type their name into the text input near the bottom, and press enter (or click the new/edit button).
 
-	 * A window will pop up where you can select the times they are free
+ 	 * A window will pop up where you can select the times they are free
 
 To add schedules from .ics files, click "batch .ics add" and select the desired .ics files.
 
@@ -31,7 +31,7 @@ Clicking the "save" button at the bottom left will allow you to save your names 
 
 Clicking the "load" button at the bottom will allow you to load a previously saved file.
 
-	 * NOTE: loading will overwrite all existing schedules
+   * NOTE: loading will overwrite all existing schedules
 
 ## Viewing Availability
 The numbers displayed on the calendar represent the number of people busy at that time.
