@@ -41,7 +41,7 @@ To view the specific people available at some time slot, check "Availability" un
 ## Color Schemes
 Select your desired color scheme under the "Theme" menu.
 
---
+---
 
 *Author: Arisha Kulshrestha  
 Email: arishak@gmail.com*
