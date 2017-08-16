@@ -1,7 +1,7 @@
 # About
 A group scheduling application that takes inspiration from when2meet.com.
 
-Add/edit schedules individually, then view common free times on the main screen. Also allows for saving of the current group of schedules to a file, to retrieve next time.
+Add/edit schedules individually, then view common free times on the main screen. Save subsets of people as groups. Also allows for saving of the current schedules and groupings to a file, to retrieve later.
 
 Basically functions similarly to when2meet, but allows for selecting only certain people so that you can schedule for different subgroups within the main group.
 
