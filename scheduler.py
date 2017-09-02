@@ -245,18 +245,20 @@ def indvScreenInit(data):
     name_label.grid(row=1, column=1, columnspan=7)
     data.lbs = []
     for i in range(7):
+        day_label = Label(data.top, text=data.day_names[i].title(), anchor=S, bg='gray92')
+        day_label.grid(row=2, column=i+1, sticky=W+E)
         lb = Listbox(data.top, selectmode=EXTENDED, exportselection=False,
                      height=32, width=10)
         data.lbs.append(lb)
-        lb.grid(row=2, column=i+1)
+        lb.grid(row=3, column=i+1)
         for t in data.times:
             lb.insert(END, str(t))
     bdone = Button(data.top, text="done", command=lambda: doneClick(data))
-    bdone.grid(row=3, column=5, columnspan=2)
+    bdone.grid(row=4, column=5, columnspan=2)
     binvert = Button(data.top, text="invert", command=lambda: invertClick(data))
-    binvert.grid(row=3, column=3, columnspan=3)
+    binvert.grid(row=4, column=3, columnspan=3)
     bload = Button(data.top, text="load ics", command=lambda: loadics(data))
-    bload.grid(row=3, column=2, columnspan=2)
+    bload.grid(row=4, column=2, columnspan=2)
     data.top.bind('<Return>', lambda _: doneClick(data))
     if data.name in data.names:
         loadSchedule(data)
