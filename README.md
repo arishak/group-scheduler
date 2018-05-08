@@ -9,7 +9,7 @@ Runs on Python 3.
 
 # How to Use
 ## Running the Application
-Open the application by running 'python scheduler.py' from the command line. (note: ensure you are using python 3)
+Open the application by running 'python3 scheduler.py' from the command line.
 
 ## Adding Schedules
 To add/edit someone's schedule manually, type their name into the text input near the bottom, and press enter (or click the new/edit button).

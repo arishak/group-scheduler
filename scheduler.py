@@ -28,7 +28,7 @@ def init(data):
     data.names = []
     data.groups = dict()
     data.day_names = ['MO', 'TU', 'WE', 'TH', 'FR', 'SA', 'SU']
-    data.cmap = cm.get_cmap('bone_r')
+    data.cmap = cm.get_cmap('Blues') #bone_r is good too
     createMenu(data)
     createList(data)
     createButtons(data)
@@ -165,7 +165,7 @@ def icsAddClick(data):
     fnames = filedialog.askopenfilename(parent=data.root, multiple=True, filetypes=[('ICS', '.ics')])
     for fname in fnames:
         name = fname[fname.rfind('/')+1:].split('.')[0].title()
-        if name not in data.names:
+        if True: #name not in data.names:
             newClick(data, name, hidden=True)
             loadics(data, fname)
             doneClick(data)
